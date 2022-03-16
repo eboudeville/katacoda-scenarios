@@ -26,10 +26,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+	  "hideintro": true,
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running",
+    "imageid": "kubernetes-cluster:1.18",
     "port": "32000"
   }
 }
